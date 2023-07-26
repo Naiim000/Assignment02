@@ -1,0 +1,248 @@
+
+@media screen and (max-width:425px)
+{
+    
+    nav{
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .logo #G {
+        font-size: 38px;
+        font-weight: 700;
+    
+        background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+        color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .logo h2 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #0B0223;
+    
+    }
+    
+    .link {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .link a {
+        text-decoration: none;
+        gap: 10px;
+        color: #3C354F;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .follow {
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 9px 15px;
+        
+    }
+   
+    main{
+        padding: 20px 30px;
+    }
+    .banner{
+        flex-direction :column-reverse;
+        padding: 10px;
+        
+       
+    }
+   
+
+    .banner-img  {
+        width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .goat{
+        width: auto;
+        margin: 2px auto;
+        
+ 
+         
+     }
+
+    .banner h3 {
+        color: #0B0223;
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 2px;
+    
+    }
+    .banner h1 {
+        font-size: 65px;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 1px;
+    
+    
+    }
+    .banner p {
+        color: #534C64;
+        font-size: 10px;
+        font-weight: 500;
+       gap: 15px;
+    }
+    .sign {
+        padding: 10px 25px;
+        border-radius: 40px;
+        background: #FF42A5;
+        border: none;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        margin-right:10px;
+        margin-top: 20px;
+    }
+    .go{
+        padding: 10px 25px;
+        border-radius: 40px;
+        background: #4EC5F7;
+        border: none;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+  
+    .gamer{
+        flex-direction: column;
+        padding: 20px ;
+        background: none;
+    }
+    .gamer-img {
+        width: 100%;
+    margin: 0px;
+        
+    }
+    .gamer-img img {
+        width: 100%;
+        
+    }
+    
+.gamer-container {
+     width: auto;
+    text-align: center;
+    display:block ;
+    justify-content: center;
+    align-items: center;
+
+}
+    .gamer-title {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 10px;
+        margin-bottom: 0px;
+       
+    
+    }
+    .gamer-description {
+        color: #534C64;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 15px;
+        padding: 10px;
+    
+    }
+
+    .know{
+        border-radius: 48px;
+    background:  #FF42A5 ;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0px;
+    margin: 10px 0px;
+    }
+    #our{
+        color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 0px;
+        
+    }
+    #unleash{
+        color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 70px;
+        
+    }
+    .Online-img{
+    
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 20px;
+        
+    
+    }
+    .Online-img img{
+        flex-direction: column;
+    }
+    .image{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+
+    }
+    .Online-title {
+        color: #0B0223;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    #online-des{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    #funny{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 23px;
+    font-weight: 700;
+    }
+    .download{
+       display: none;
+    }
+    .ppp{
+        display: contents;
+        font-size: 15px;
+    
+    }
+    
+
+}
