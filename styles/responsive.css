@@ -243,6 +243,59 @@
         font-size: 15px;
     
     }
+    .play{
+        flex-direction: column;
+        padding: 30px;
+        
+        
     
+    }
+    .play-section{
+        
+       width: 100%;
+        margin: 20px;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+    
+    
+       
+     }
+     .play-img{
+      width: 100%;
+      margin: 20px;
+   
+     
+    
+       
+        
+     }
+     .horse img{
+        width: 100%;
+       
+     }
+     .pink{
+      
+        width: 100px;
+        position: relative; 
+
+        top: -50px;
+        right: 50px;
+          
+      }
+      .play-title{
+        font-size: 30px;
+        font-weight: 700;
+        }
+        #instantly{
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+        #play-des{
+            font-size: 12px;
+            font-weight: 400;}
+        
 
 }

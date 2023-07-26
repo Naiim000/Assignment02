@@ -318,3 +318,61 @@ font-weight: 700;
     gap: 20px;
 
 }
+.play{
+    display: flex;
+    padding: 30px;
+    
+    
+
+}
+.play-title{
+font-size: 48px;
+font-weight: 700;
+}
+#instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#play-des{
+    font-size: 18px;
+    font-weight: 400;}
+
+ .horse{
+
+    width: 100%;
+
+    
+
+ }  
+ .horse img{
+    width: 100%;
+   
+ }
+ .pink{
+   
+   position: relative;
+   bottom: 250px;
+   right: 150px;
+ 
+    
+    
+ } 
+ .play-section{
+    width: 40%;
+
+    margin: 200px 30px;
+   text-align: right;
+   justify-content: center;
+   align-items: center;
+
+
+   
+ }
+ .play-img{
+    width: 60%;
+    margin: 20px 240px;
+   
+    
+ }
