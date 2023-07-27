@@ -406,7 +406,7 @@ nav {
 }
 
 .icon-section div {
-   
+
     width: 220px;
     border-radius: 50px;
     background: #FFF;
@@ -427,11 +427,106 @@ nav {
     font-weight: 600;
 
 }
+
 .icon-section div:hover {
     border: 2px solid tomato;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     cursor: pointer;
+    cursor: pointer;
+}
+
+footer {
+    
+    background: #0B0223;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    margin-top: 40px;
+    
+}
+
+.footer-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+
+}
+
+#g {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-title img {
+    width: 86.041px;
+    height: 40px;
+
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.story p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.social-icon {
+    color: #FFF;
+    font-size: 40px;
+    cursor: pointer;
+
+
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.term {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.term p {
+    color: rgba(255, 255, 255, 0.60);
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+}
+
+.small {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.small small {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
 }
